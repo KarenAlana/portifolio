@@ -1,0 +1,232 @@
+#projects{
+ text-align: center;
+ width: 100%;
+ height: 1000px;
+ background-color: #151515;
+
+}
+.container{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card{
+    position: relative;
+    cursor: pointer;
+}
+
+.face{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.face1{
+    position: relative;
+    background: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(180px);
+}
+
+.card:hover .face1{
+    background-color: aqua;
+    transform: translateY(0);
+}
+
+.content{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.card:hover .content{
+    opacity: 1;
+}
+
+.content img{
+max-width: 100px;
+}
+
+.contenth3{
+    margin:  10px 0 0 ;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+.face2{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 20px 50px black;
+    transform: translateY(-100px);
+
+}
+
+.card:hover .face2{
+    transform: translateY(0);
+}
+
+.content a{
+    margin: 15px 0 0 ;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(56, 50, 50);
+    padding: 5px;
+    border: 1px solid #333;
+    transition: 0.4s;
+}
+
+.content a:hover{
+    border-radius: 10px;
+    background: #10536d;
+    color: #fff;
+
+}
+/*sroll---------------------*/
+
+.elenco-01{
+height: 800px;
+align-items: center;
+display: flex;
+justify-content: space-around;
+
+
+}
+.elenco{
+height: 350px;
+width: 250px;   
+
+}
+
+.elenco-img{
+background: rgb(255, 255, 255);
+height: 300px;
+width: 250px;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+.ator{
+    font-weight: bold;
+}
+
+.titulo02{
+width: 100%;
+align-items: center;
+display: flex;
+height: 100px;
+color: white;
+font-size: 1.1em;
+letter-spacing: .5em;
+}
+
+.titulo-01{
+width: 80%;
+align-items: center;
+display: flex;
+padding: 50px;
+color: white;
+}
+
+.main-scroll-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    cursor: pointer;
+    
+}
+
+.cover {
+    position: relative;
+    width: 80%;
+    height: 50%;
+}
+
+.cover::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    z-index: 99;
+    height: 100%;
+    width: 150px;
+}
+
+.cover::after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    z-index: 99;
+    height: 100%;
+    width: 150px;
+}
+
+.scroll-images {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.child {
+    min-width: 600px;
+    height: 450px;
+    margin: 1px 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.scroll-images::-webkit-scrollbar {
+    -webkit-appearance: none;
+    display: none;
+}
+
+
+.child-img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.icon {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 23px;
+    outline: none;
+    border: none;
+    padding: 0px 20px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.icon:hover {
+    color: white;
+}
+
+.container::-webkit-scrollbar { /* for chrome */
+    display: none;
+
+ }
+ .container{ /* for chrome */
+ overflow: hidden;/*Para esconder*/
+ }
+
