@@ -1,0 +1,147 @@
+h3 {
+    text-align: center;
+}
+
+#menu li {
+    padding: 0px;
+}
+
+.me {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#how-im-container h2,
+#how-im-container h1,
+#how-im-container #how-im p {
+    text-align: center;
+}
+
+.how-im,
+#how-im-container {
+    height: 1566px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#skills,
+#how-im ul {
+    margin-top: 160px;
+}
+
+.container-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#college-container {
+    width: 300px;
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+        "ico descrição "
+        "ico curso ";
+}
+
+.college-container-01 {
+    align-items: flex-start;
+}
+
+.ico-container {
+    width: 90px;
+}
+
+.round-edge {
+    margin-top: -676px;
+}
+
+.border {
+    height: 720px;
+}
+
+
+#description p {
+    width: 230px;
+}
+
+#description {
+    width: 230px;
+}
+
+#description {
+    width: 200px;
+}
+
+.container-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#projects {
+    height: 2800px;
+}
+
+.projects-container {
+    width: 90%;
+    height: 400px;
+    margin: 10px;
+}
+
+.container-a,
+.container-b,
+.container-c,
+.container-d,
+.container-e,
+.container-f {
+    width: 90%;
+    height: 600px;
+}
+
+.hide img{
+    display: none;
+}
+
+.hide {
+    height: 550px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hide p{
+    min-width: 200px;
+}
+
+
+#about-me {
+    flex-direction: column-reverse;
+    top: 0;
+    height: 1200px;
+}
+
+.menu-superior{
+    flex-direction: column;
+    height: 200px;
+}
+
+#about{
+    left: 0;
+    top:50px ;
+    font-size: .9em;
+    color: #01b6d6;
+    letter-spacing: .5rem;
+}
+
+#about-me img {
+    width: 80%;
+    height: 600px;
+}
